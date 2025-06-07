@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ADA4899-1YRDZ
+#/154390/1697049/2.50/9/3/Integrated Circuit
+DEF ADA4899-1YRDZ IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "ADA4899-1YRDZ" 1450 200 50 H V L CNN
+F2 "SOIC127P600X175-9N" 1450 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-4/DSA-67550.pdf" 1450 0 50 H I L CNN
+F4 "ADA4899-1YRDZ, Operational Amplifier Voltage Feedback, 5 V, 9 V, 8-Pin SOIC EP" 1450 -100 50 H I L CNN "Description"
+F5 "1.75" 1450 -200 50 H I L CNN "Height"
+F6 "584-ADA4899-1YRDZ" 1450 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADA4899-1YRDZ?qs=BpaRKvA4VqHdL2g2VfaVeQ%3D%3D" 1450 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 1450 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ADA4899-1YRDZ" 1450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X FEEDBACK 1 0 0 200 R 50 50 0 0 P
+X -IN 2 0 -100 200 R 50 50 0 0 P
+X +IN 3 0 -200 200 R 50 50 0 0 P
+X -VS_1 4 0 -300 200 R 50 50 0 0 P
+X EP 9 800 -800 200 U 50 50 0 0 P
+X ~DISABLE 8 1600 0 200 L 50 50 0 0 P
+X +VS 7 1600 -100 200 L 50 50 0 0 P
+X VOUT 6 1600 -200 200 L 50 50 0 0 P
+X -VS_2 5 1600 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

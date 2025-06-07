@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADA4522-1ARZ
+D Precision Amplifiers 55V Low Noise Zero Drift OpAmp 1x
+K
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4522-1_4522-2_4522-4.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADA4899-1YRDZ
+D ADA4899-1YRDZ, Operational Amplifier Voltage Feedback, 5 V, 9 V, 8-Pin SOIC EP
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-4/DSA-67550.pdf
+$ENDCMP
+#
+#End Doc Library

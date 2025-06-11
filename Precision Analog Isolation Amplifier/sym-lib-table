@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "project_components")(type "KiCad")(uri "${KIPRJMOD}/project_components.kicad_sym")(options "")(descr ""))
+  (lib (name "ADA4899")(type "KiCad")(uri "${KIPRJMOD}/components/ADA4899/ADA4899-1YRDZ.kicad_sym")(options "")(descr ""))
+  (lib (name "HCNR201-300E")(type "KiCad")(uri "${KIPRJMOD}/components/HCNR201-300E/HCNR201-300E.kicad_sym")(options "")(descr ""))
 )

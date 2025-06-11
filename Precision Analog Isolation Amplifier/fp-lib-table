@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ADA4899")(type "KiCad")(uri "${KIPRJMOD}/components/ADA4899")(options "")(descr ""))
+  (lib (name "ADA4522")(type "KiCad")(uri "${KIPRJMOD}/components/ADA4522")(options "")(descr ""))
+  (lib (name "HCNR201-300E")(type "KiCad")(uri "${KIPRJMOD}/components/HCNR201-300E")(options "")(descr ""))
+  (lib (name "NaMi_logo")(type "KiCad")(uri "${KIPRJMOD}/imgs/NaMi_logo")(options "")(descr ""))
+)

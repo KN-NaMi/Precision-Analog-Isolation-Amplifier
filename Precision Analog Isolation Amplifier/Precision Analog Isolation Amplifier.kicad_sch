@@ -1314,6 +1314,308 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1587,6 +1889,139 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:SMAJ15A"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ15A"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400W unidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMAJ15A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ15A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2562,6 +2997,12 @@
 		(uuid "5989afa5-c666-4d97-b8a5-47e11a18e237")
 	)
 	(junction
+		(at 134.62 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "666be65d-0e31-41df-bed1-1379ad45c96b")
+	)
+	(junction
 		(at 59.69 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2592,6 +3033,12 @@
 		(uuid "8900022c-19d4-459b-b86e-6248aa693f93")
 	)
 	(junction
+		(at 134.62 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ad17aa1-c875-4c34-af9d-7f11b45aa093")
+	)
+	(junction
 		(at 85.09 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2614,6 +3061,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a429d88b-fb73-4da5-90e1-93604a52979d")
+	)
+	(junction
+		(at 134.62 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4d8f201-fa62-4d36-8de3-f104d35118ca")
 	)
 	(junction
 		(at 102.87 53.34)
@@ -2670,6 +3123,12 @@
 		(uuid "d1db10c6-e168-4726-a7ed-cf8c4237a220")
 	)
 	(junction
+		(at 134.62 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8aa9f8a-58bb-45d2-9b66-e5c5d1b85022")
+	)
+	(junction
 		(at 102.87 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2704,6 +3163,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1bac760-98d3-483c-a1ba-085813c9d730")
+	)
+	(junction
+		(at 120.65 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fafa1227-7ce6-47fb-8d78-e6ce60ea6a26")
 	)
 	(no_connect
 		(at 250.19 134.62)
@@ -2740,6 +3205,26 @@
 	(no_connect
 		(at 231.14 96.52)
 		(uuid "f9ec1d28-9437-4eca-859f-13e88efc048c")
+	)
+	(wire
+		(pts
+			(xy 134.62 123.19) (xy 134.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018498dd-c8a8-4f58-9426-1a7890d50de8")
+	)
+	(wire
+		(pts
+			(xy 134.62 124.46) (xy 134.62 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044e9cb0-54bd-4e1b-9a3e-4c25823d5aee")
 	)
 	(wire
 		(pts
@@ -2781,6 +3266,16 @@
 		)
 		(uuid "07f0642d-4613-4970-8193-bc15a13ada52")
 	)
+	(polyline
+		(pts
+			(xy 69.85 194.31) (xy 69.85 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083f09a8-aa29-4d82-bd54-4634e6d8d39d")
+	)
 	(wire
 		(pts
 			(xy 187.96 43.18) (xy 187.96 50.8)
@@ -2793,6 +3288,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 88.9) (xy 205.74 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d174940-deca-43c5-897f-13215559b4ff")
+	)
+	(wire
+		(pts
 			(xy 201.93 134.62) (xy 201.93 137.16)
 		)
 		(stroke
@@ -2800,6 +3305,16 @@
 			(type default)
 		)
 		(uuid "0e5a4af7-351e-4d28-9741-af9c6cbb1d7b")
+	)
+	(wire
+		(pts
+			(xy 163.83 88.9) (xy 163.83 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3661ae-8b37-4745-a200-be2e92ebfb5b")
 	)
 	(wire
 		(pts
@@ -2853,6 +3368,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 171.45) (xy 120.65 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a8ed94-b4c8-48fe-b5f4-f3f37db99cf8")
+	)
+	(wire
+		(pts
 			(xy 135.89 66.04) (xy 127 66.04)
 		)
 		(stroke
@@ -2893,16 +3418,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 147.32) (xy 142.24 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1df3c1e7-c218-41be-8e86-4eba1770e09e")
-	)
-	(wire
-		(pts
 			(xy 38.1 78.74) (xy 38.1 82.55)
 		)
 		(stroke
@@ -2910,6 +3425,16 @@
 			(type default)
 		)
 		(uuid "21746239-6f56-4658-86de-b3e6bc2254f2")
+	)
+	(wire
+		(pts
+			(xy 134.62 135.89) (xy 134.62 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b1bea1-f78e-4f4f-9f5e-f293f3b462e0")
 	)
 	(wire
 		(pts
@@ -3000,6 +3525,16 @@
 			(type default)
 		)
 		(uuid "3242970d-c040-4f87-abe5-bb431ac45126")
+	)
+	(wire
+		(pts
+			(xy 134.62 168.91) (xy 134.62 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3451f71c-750d-4f0b-9238-9433fc1d04c4")
 	)
 	(wire
 		(pts
@@ -3141,6 +3676,16 @@
 		)
 		(uuid "459a7cb0-0b7b-4621-a95b-93a4bdf293df")
 	)
+	(polyline
+		(pts
+			(xy 71.12 137.16) (xy 67.31 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "470af9f8-5da6-43fd-8994-16303da76ffd")
+	)
 	(wire
 		(pts
 			(xy 232.41 43.18) (xy 234.95 43.18)
@@ -3213,6 +3758,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 135.89) (xy 134.62 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae6cda3-68c5-4082-ad94-a2c372b1d171")
+	)
+	(wire
+		(pts
 			(xy 199.39 53.34) (xy 261.62 53.34)
 		)
 		(stroke
@@ -3243,16 +3798,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 179.07) (xy 142.24 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "602eb133-e753-4ea5-ba87-00e15a00f1e0")
-	)
-	(wire
-		(pts
 			(xy 21.59 179.07) (xy 33.02 179.07)
 		)
 		(stroke
@@ -3263,6 +3808,36 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 181.61) (xy 134.62 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d0a695-45de-43c0-a0d0-485e893282cc")
+	)
+	(polyline
+		(pts
+			(xy 67.31 194.31) (xy 69.85 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c974cb-9fe6-4f25-a266-221dd57960da")
+	)
+	(wire
+		(pts
+			(xy 163.83 97.79) (xy 163.83 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a2512c-39af-4ad4-888d-36be5909fda1")
+	)
+	(wire
+		(pts
 			(xy 256.54 129.54) (xy 266.7 129.54)
 		)
 		(stroke
@@ -3270,6 +3845,16 @@
 			(type default)
 		)
 		(uuid "673f0f65-4f46-4fa0-820d-5147be7124ad")
+	)
+	(polyline
+		(pts
+			(xy 67.31 137.16) (xy 67.31 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6806e354-fedb-4468-8066-fb33dcdc738b")
 	)
 	(wire
 		(pts
@@ -3323,6 +3908,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 96.52) (xy 193.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eab1abd-c004-4320-9154-983b1a51b6ae")
+	)
+	(wire
+		(pts
 			(xy 53.34 66.04) (xy 59.69 66.04)
 		)
 		(stroke
@@ -3340,6 +3935,16 @@
 			(type default)
 		)
 		(uuid "7231d242-1484-4ed6-98c9-68fd37e5ceca")
+	)
+	(wire
+		(pts
+			(xy 205.74 96.52) (xy 205.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74496340-e4e9-420f-a1c3-2d0886c39b0d")
 	)
 	(wire
 		(pts
@@ -3373,6 +3978,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 176.53) (xy 120.65 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7758aedf-6233-47ce-ac4c-52c80650b43c")
+	)
+	(wire
+		(pts
 			(xy 99.06 179.07) (xy 111.76 179.07)
 		)
 		(stroke
@@ -3380,16 +3995,6 @@
 			(type default)
 		)
 		(uuid "77b23528-adff-46e8-b556-7562e0bd77b0")
-	)
-	(wire
-		(pts
-			(xy 139.7 142.24) (xy 142.24 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78e326ed-6fc2-4244-aa86-ac922661d14b")
 	)
 	(wire
 		(pts
@@ -3443,13 +4048,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 147.32) (xy 139.7 149.86)
+			(xy 128.27 171.45) (xy 134.62 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e52e82b-1957-47f5-92de-200ee0925025")
+		(uuid "82b384c4-63ce-40a4-90cf-ffdb6ecec5e8")
 	)
 	(wire
 		(pts
@@ -3533,26 +4138,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 139.7) (xy 139.7 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9876b313-1091-45dc-bf4a-eee358a4ff13")
-	)
-	(wire
-		(pts
-			(xy 139.7 173.99) (xy 142.24 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9964fc10-1c17-467f-ab8f-fb6a85cfce70")
-	)
-	(wire
-		(pts
 			(xy 102.87 34.29) (xy 127 34.29)
 		)
 		(stroke
@@ -3570,6 +4155,16 @@
 			(type default)
 		)
 		(uuid "9bda68df-7925-4b40-bda8-cd21e4747174")
+	)
+	(wire
+		(pts
+			(xy 134.62 179.07) (xy 134.62 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9e2a92-64b4-489d-9838-014589333581")
 	)
 	(wire
 		(pts
@@ -3603,6 +4198,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 81.28) (xy 176.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8dd341-4162-4f94-a931-174926b4101f")
+	)
+	(wire
+		(pts
 			(xy 80.01 66.04) (xy 91.44 66.04)
 		)
 		(stroke
@@ -3630,6 +4235,26 @@
 			(type default)
 		)
 		(uuid "a5ba5bbc-d3da-47e2-b844-b867a69d1d82")
+	)
+	(wire
+		(pts
+			(xy 176.53 96.52) (xy 176.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e12b0b-eff0-4dbc-8d15-546fb9197598")
+	)
+	(wire
+		(pts
+			(xy 134.62 133.35) (xy 134.62 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82aa692-b57f-4129-9600-70e5e6c57348")
 	)
 	(wire
 		(pts
@@ -3683,6 +4308,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 171.45) (xy 134.62 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2f0535-4e67-4c2b-9d12-6b661719e66b")
+	)
+	(wire
+		(pts
 			(xy 256.54 43.18) (xy 257.81 43.18)
 		)
 		(stroke
@@ -3723,6 +4358,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 124.46) (xy 146.05 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b1da3e-d23b-4042-a010-535105bc74da")
+	)
+	(wire
+		(pts
 			(xy 127 77.47) (xy 127 81.28)
 		)
 		(stroke
@@ -3733,17 +4378,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 171.45) (xy 139.7 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c63f6518-b783-4470-b9cb-82813ba01efc")
-	)
-	(wire
-		(pts
-			(xy 132.08 176.53) (xy 142.24 176.53)
+			(xy 120.65 176.53) (xy 142.24 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3770,16 +4405,6 @@
 			(type default)
 		)
 		(uuid "cb25f4c1-5b4e-4091-b765-2825d60ea0de")
-	)
-	(wire
-		(pts
-			(xy 139.7 179.07) (xy 139.7 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbf64ae3-8936-40ab-a882-46e0912513b4")
 	)
 	(wire
 		(pts
@@ -3841,6 +4466,16 @@
 		)
 		(uuid "db2365ab-4613-45dc-b3f4-ea70e78b99ec")
 	)
+	(polyline
+		(pts
+			(xy 71.12 105.41) (xy 71.12 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded7cd93-4504-4ee4-a7e1-240ef4bf849e")
+	)
 	(wire
 		(pts
 			(xy 127 66.04) (xy 120.65 66.04)
@@ -3850,6 +4485,26 @@
 			(type default)
 		)
 		(uuid "e1cd30a2-f76d-4d4d-a266-cb7a4d286ff6")
+	)
+	(wire
+		(pts
+			(xy 193.04 81.28) (xy 193.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3186ce8-121b-44b1-824c-d7711d206d22")
+	)
+	(wire
+		(pts
+			(xy 134.62 181.61) (xy 134.62 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36958e4-ec34-49f2-a161-8adada43e37e")
 	)
 	(wire
 		(pts
@@ -4023,7 +4678,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 144.78) (xy 142.24 144.78)
+			(xy 132.08 130.81) (xy 142.24 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4064,7 +4719,7 @@
 		(uuid 24498613-f963-4f16-957f-85ec7a9a571b)
 	)
 	(rectangle
-		(start 168.91 104.648)
+		(start 168.91 109.22)
 		(end 281.178 163.576)
 		(stroke
 			(width 0)
@@ -4137,7 +4792,7 @@
 	)
 	(text "Wtórnik napięciowy"
 		(exclude_from_sim no)
-		(at 183.388 102.87 0)
+		(at 183.134 106.68 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4756,6 +5411,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 138.43 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1489b531-1275-44a5-a222-2ca506f53758")
+		(property "Reference" "F3"
+			(at 138.43 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 138.43 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 138.43 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 138.43 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d2be4a5-3b5a-4acf-b04f-23a2a061bf69")
+		)
+		(pin "1"
+			(uuid "903d4f51-788d-41f3-afe6-3158d3dfea30")
+		)
+		(instances
+			(project ""
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 208.28 43.18 90)
 		(unit 1)
@@ -4954,6 +5677,212 @@
 			(project ""
 				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
 					(reference "#PWR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 176.53 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d5c078c-50a2-4411-baa6-af38d65dae33")
+		(property "Reference" "#PWR38"
+			(at 176.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VEE1 -15V"
+			(at 181.864 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f602c77-a4d8-499a-a5b5-5d765353384a")
+		)
+		(instances
+			(project "Precision Analog Isolation Amplifier"
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "#PWR38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ15A")
+		(at 146.05 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dad1f04-eb8b-408a-b649-10f61c488a1a")
+		(property "Reference" "D3"
+			(at 148.59 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ15A"
+			(at 148.59 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 151.13 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
+			(at 146.05 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82bb3f6a-7562-47c3-9a29-ecf7df962ad2")
+		)
+		(pin "1"
+			(uuid "13216e47-b65c-4461-af58-0e13a7bb95ed")
+		)
+		(instances
+			(project ""
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 193.04 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20d10e48-bfb3-4918-b13f-3e93e02857d9")
+		(property "Reference" "R10"
+			(at 195.58 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k"
+			(at 195.58 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 191.262 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 193.04 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "708d3f7d-953e-42fe-82b1-adc10ee62df4")
+		)
+		(pin "2"
+			(uuid "000f1411-9c7c-43ba-874d-8b314d739747")
+		)
+		(instances
+			(project "Precision Analog Isolation Amplifier"
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5176,6 +6105,76 @@
 			(project ""
 				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ15A")
+		(at 146.05 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33e9dd06-72ea-4373-9688-cfb1bcd1dc4e")
+		(property "Reference" "D2"
+			(at 148.59 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ15A"
+			(at 148.59 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 151.13 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 146.05 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7b6b453-2dce-4ca0-bcf5-9fe59198fe63")
+		)
+		(pin "2"
+			(uuid "3f07512c-b94a-4491-844f-185af2288d32")
+		)
+		(instances
+			(project ""
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5453,34 +6452,104 @@
 			)
 		)
 		(pin "5"
-			(uuid "374c76ad-4459-4ee5-a8b4-b1b16e4b735d")
+			(uuid "374c76ad-4459-4ee5-a8b4-b1b16e4b735e")
 		)
 		(pin "6"
-			(uuid "ad9c1d27-bad5-4da1-8905-0e1b13806764")
+			(uuid "ad9c1d27-bad5-4da1-8905-0e1b13806765")
 		)
 		(pin "7"
-			(uuid "69c35ce2-69a5-48ce-ac1c-a25891504554")
+			(uuid "69c35ce2-69a5-48ce-ac1c-a25891504555")
 		)
 		(pin "1"
-			(uuid "0ade2303-243e-47c2-8846-d66ca12658c4")
+			(uuid "0ade2303-243e-47c2-8846-d66ca12658c5")
 		)
 		(pin "8"
-			(uuid "5fd793de-17ce-4756-89d6-6e811defec09")
+			(uuid "5fd793de-17ce-4756-89d6-6e811defec0a")
 		)
 		(pin "2"
-			(uuid "13f75b80-6545-4639-bbdc-c3a61898258f")
+			(uuid "13f75b80-6545-4639-bbdc-c3a618982590")
 		)
 		(pin "3"
-			(uuid "45de21a2-e043-4ae0-9a7d-7f04a8f2c1c0")
+			(uuid "45de21a2-e043-4ae0-9a7d-7f04a8f2c1c1")
 		)
 		(pin "4"
-			(uuid "31365a4b-a935-4f35-b28f-fb76b3863faf")
+			(uuid "31365a4b-a935-4f35-b28f-fb76b3863fb0")
 		)
 		(instances
 			(project ""
 				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 193.04 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b284ff5-a8a5-43b2-a38b-d9403b625228")
+		(property "Reference" "D8"
+			(at 195.58 82.2324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 195.58 84.7724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ce6c897-8464-4d3a-b85e-ee625d584d43")
+		)
+		(pin "2"
+			(uuid "8f475cec-a1c9-4e66-a40c-675d8a36b35d")
+		)
+		(instances
+			(project "Precision Analog Isolation Amplifier"
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "D8")
+					(unit 1)
 				)
 			)
 		)
@@ -5557,16 +6626,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 139.7 149.86 180)
+		(lib_id "power:GND")
+		(at 163.83 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3ec13a1b-2498-41c6-b649-c74012d0ea09")
-		(property "Reference" "#PWR14"
-			(at 139.7 146.05 0)
+		(fields_autoplaced yes)
+		(uuid "3e629774-ccbe-4718-932b-feeae16059fc")
+		(property "Reference" "#PWR39"
+			(at 163.83 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,17 +6644,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VEE1 IN -15V"
-			(at 134.366 153.924 0)
+		(property "Value" "GND1"
+			(at 163.83 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 149.86 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +6662,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 149.86 0)
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "731a7cc2-b152-4c84-9641-b7427f78c7cb")
+		)
+		(instances
+			(project "Precision Analog Isolation Amplifier"
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "#PWR39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 134.62 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ec13a1b-2498-41c6-b649-c74012d0ea09")
+		(property "Reference" "#PWR14"
+			(at 134.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VEE1 IN -15V"
+			(at 129.286 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +6737,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 139.7 149.86 0)
+			(at 134.62 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +6759,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 139.7 171.45 0)
+		(at 134.62 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5632,7 +6767,7 @@
 		(dnp no)
 		(uuid "418b8f5d-98ed-4349-b832-89a187683b75")
 		(property "Reference" "#PWR10"
-			(at 139.7 175.26 0)
+			(at 134.62 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,7 +6776,7 @@
 			)
 		)
 		(property "Value" "VCC2 IN +15V"
-			(at 134.112 167.386 0)
+			(at 129.032 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5650,7 +6785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 171.45 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,7 +6794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 171.45 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5668,7 +6803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 139.7 171.45 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,6 +6894,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ15A")
+		(at 124.46 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4592c3ff-5236-42ee-8894-52559d0a910d")
+		(property "Reference" "D5"
+			(at 124.46 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMAJ15A"
+			(at 124.46 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 124.46 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 125.73 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
+			(at 124.46 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d84dbad-80f4-4e19-81ce-6b4454ec8114")
+		)
+		(pin "2"
+			(uuid "2363efea-23a4-4349-99bc-821186bc9967")
+		)
+		(instances
+			(project ""
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 163.83 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45cfcf0f-7a3d-42ad-8804-f553326634e9")
+		(property "Reference" "D6"
+			(at 167.64 84.1374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 167.64 86.6774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee2c8863-874f-4ecb-983f-4cb32a6e54d3")
+		)
+		(pin "2"
+			(uuid "77f3eb86-501d-4931-98fa-e08f6f494a07")
+		)
+		(instances
+			(project ""
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 58.42 130.81 180)
 		(unit 1)
@@ -5819,6 +7092,73 @@
 			(project "Precision Analog Isolation Amplifier"
 				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
 					(reference "#PWR16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ15A")
+		(at 124.46 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49126ece-3699-48d6-8d6d-6ec565cca752")
+		(property "Reference" "D4"
+			(at 123.444 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMAJ15A"
+			(at 123.444 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 124.46 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 123.19 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
+			(at 124.46 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "22185930-d33e-4b06-b4f3-428f7abe433b")
+		)
+		(pin "1"
+			(uuid "56d5a507-6342-4c91-89c7-359fbb06eaf3")
+		)
+		(instances
+			(project ""
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6084,28 +7424,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "099cc129-879b-42bd-8408-a1763ebf4a4b")
+			(uuid "099cc129-879b-42bd-8408-a1763ebf4a4c")
 		)
 		(pin "7"
-			(uuid "3d2ed709-c9cf-4771-8703-cfde84e4f81c")
+			(uuid "3d2ed709-c9cf-4771-8703-cfde84e4f81d")
 		)
 		(pin "5"
-			(uuid "dccdce48-d40a-4ea0-aee7-4a3954bcbda8")
+			(uuid "dccdce48-d40a-4ea0-aee7-4a3954bcbda9")
 		)
 		(pin "8"
-			(uuid "5fcefa07-4b95-481a-b70f-257314fe63de")
+			(uuid "5fcefa07-4b95-481a-b70f-257314fe63df")
 		)
 		(pin "4"
-			(uuid "a2cb6b61-59d6-4ed2-a47d-db7271a72d17")
+			(uuid "a2cb6b61-59d6-4ed2-a47d-db7271a72d18")
 		)
 		(pin "2"
-			(uuid "01729192-fdc2-4507-a679-c58e885e8a9e")
+			(uuid "01729192-fdc2-4507-a679-c58e885e8a9f")
 		)
 		(pin "6"
-			(uuid "214e6682-8a36-4158-b118-ab6e06e698d4")
+			(uuid "214e6682-8a36-4158-b118-ab6e06e698d5")
 		)
 		(pin "1"
-			(uuid "2e4601c5-8ef0-4332-bb13-2093dca47bcb")
+			(uuid "2e4601c5-8ef0-4332-bb13-2093dca47bcc")
 		)
 		(instances
 			(project ""
@@ -6456,7 +7796,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 144.78 270)
+		(at 132.08 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6464,7 +7804,7 @@
 		(dnp no)
 		(uuid "614f8d55-4ce7-45c6-b04f-6f44d8a4698a")
 		(property "Reference" "#PWR11"
-			(at 125.73 144.78 0)
+			(at 125.73 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6473,7 +7813,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 128.016 142.24 0)
+			(at 128.016 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,7 +7822,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 144.78 0)
+			(at 132.08 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +7831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 144.78 0)
+			(at 132.08 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,7 +7840,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 144.78 0)
+			(at 132.08 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,6 +7931,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 205.74 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68f3af21-220b-4f63-915c-dc04dd76270c")
+		(property "Reference" "D9"
+			(at 209.55 84.1374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 209.55 86.6774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01ed61d1-29f5-4903-9eb1-62a8c5bdd58a")
+		)
+		(pin "2"
+			(uuid "1f2d6228-20d2-490f-bbf5-c943259e9979")
+		)
+		(instances
+			(project "Precision Analog Isolation Amplifier"
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 180.34 134.62 90)
 		(unit 1)
@@ -6651,6 +8061,72 @@
 			(project "Precision Analog Isolation Amplifier"
 				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
 					(reference "#PWR26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dfd1fef-a237-4a00-849c-4fcc4ed68705")
+		(property "Reference" "#PWR33"
+			(at 146.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 146.05 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75854ddd-3421-4318-a7b9-b9d1ff69c84f")
+		)
+		(instances
+			(project ""
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "#PWR33")
 					(unit 1)
 				)
 			)
@@ -6728,7 +8204,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 176.53 270)
+		(at 120.65 176.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6736,7 +8212,7 @@
 		(dnp no)
 		(uuid "7019ff04-fb9c-4e35-a961-ac751f4163d5")
 		(property "Reference" "#PWR12"
-			(at 125.73 176.53 0)
+			(at 114.3 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +8221,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 128.016 173.99 0)
+			(at 116.586 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6754,7 +8230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 176.53 0)
+			(at 120.65 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6763,7 +8239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 176.53 0)
+			(at 120.65 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6772,7 +8248,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 176.53 0)
+			(at 120.65 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,7 +8420,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 139.7 139.7 0)
+		(at 134.62 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6952,7 +8428,7 @@
 		(dnp no)
 		(uuid "769529bc-4e1f-4375-b1d0-ded7860859fa")
 		(property "Reference" "#PWR9"
-			(at 139.7 143.51 0)
+			(at 134.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6961,7 +8437,7 @@
 			)
 		)
 		(property "Value" "VCC1 IN +15V"
-			(at 134.112 135.636 0)
+			(at 129.032 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +8446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 139.7 0)
+			(at 134.62 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,7 +8455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 139.7 0)
+			(at 134.62 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,7 +8464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 139.7 139.7 0)
+			(at 134.62 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,6 +8555,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 193.04 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7937d91c-9748-45a0-96c5-e3fa9227d6dc")
+		(property "Reference" "#PWR41"
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 190.5 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8059a8aa-9211-4885-8621-dbd1450a85e6")
+		)
+		(instances
+			(project "Precision Analog Isolation Amplifier"
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "#PWR41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 39.37 172.72 270)
 		(unit 1)
@@ -7146,7 +8688,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 147.32 144.78 0)
+		(at 147.32 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7155,7 +8697,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c72a041-5e31-47c8-aeee-2afbb801b728")
 		(property "Reference" "J1"
-			(at 149.86 143.5099 0)
+			(at 149.86 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7164,7 +8706,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 149.86 146.0499 0)
+			(at 149.86 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7173,7 +8715,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 147.32 144.78 0)
+			(at 147.32 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7182,7 +8724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 144.78 0)
+			(at 147.32 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7191,7 +8733,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 147.32 144.78 0)
+			(at 147.32 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,6 +8896,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 138.43 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e4f9596-7fd6-4f87-81fd-e6e7eeba8dd1")
+		(property "Reference" "F1"
+			(at 138.43 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 138.43 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 138.43 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 138.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "476a4e5f-a5f5-429d-86c5-8ba743266db2")
+		)
+		(pin "2"
+			(uuid "43ce712e-c9d1-4de6-bc9a-5a4dcb44eda4")
+		)
+		(instances
+			(project ""
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "804065b6-20d2-4bf8-9900-38e89346c435")
+		(property "Reference" "R8"
+			(at 166.37 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k"
+			(at 166.37 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 162.052 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "143996f8-cf0a-4ed6-be99-8fb03ebf90a7")
+		)
+		(pin "2"
+			(uuid "6a561374-e791-4949-ab7e-a30415fd6b2d")
+		)
+		(instances
+			(project ""
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 85.09 143.51 180)
 		(unit 1)
@@ -7484,6 +9163,76 @@
 			(project "Precision Analog Isolation Amplifier"
 				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
 					(reference "#PWR20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85085d20-bbc5-4edd-8101-df73f4c702ef")
+		(property "Reference" "R11"
+			(at 208.28 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k"
+			(at 208.28 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 203.962 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ab62b45-5e18-4f1f-9d6f-a91f409302eb")
+		)
+		(pin "2"
+			(uuid "4905e95e-11d0-427f-b189-b1e9adfa2f5d")
+		)
+		(instances
+			(project "Precision Analog Isolation Amplifier"
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7840,33 +9589,99 @@
 			)
 		)
 		(pin "5"
-			(uuid "374c76ad-4459-4ee5-a8b4-b1b16e4b735d")
+			(uuid "374c76ad-4459-4ee5-a8b4-b1b16e4b735f")
 		)
 		(pin "6"
-			(uuid "ad9c1d27-bad5-4da1-8905-0e1b13806764")
+			(uuid "ad9c1d27-bad5-4da1-8905-0e1b13806766")
 		)
 		(pin "7"
-			(uuid "69c35ce2-69a5-48ce-ac1c-a25891504554")
+			(uuid "69c35ce2-69a5-48ce-ac1c-a25891504556")
 		)
 		(pin "1"
-			(uuid "0ade2303-243e-47c2-8846-d66ca12658c4")
+			(uuid "0ade2303-243e-47c2-8846-d66ca12658c6")
 		)
 		(pin "8"
-			(uuid "5fd793de-17ce-4756-89d6-6e811defec09")
+			(uuid "5fd793de-17ce-4756-89d6-6e811defec0b")
 		)
 		(pin "2"
-			(uuid "13f75b80-6545-4639-bbdc-c3a61898258f")
+			(uuid "13f75b80-6545-4639-bbdc-c3a618982591")
 		)
 		(pin "3"
-			(uuid "45de21a2-e043-4ae0-9a7d-7f04a8f2c1c0")
+			(uuid "45de21a2-e043-4ae0-9a7d-7f04a8f2c1c2")
 		)
 		(pin "4"
-			(uuid "31365a4b-a935-4f35-b28f-fb76b3863faf")
+			(uuid "31365a4b-a935-4f35-b28f-fb76b3863fb1")
 		)
 		(instances
 			(project ""
 				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 163.83 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90bee5bc-6bd9-44c1-bb69-c6808556d24b")
+		(property "Reference" "#PWR37"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC1 +15V"
+			(at 158.242 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 163.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9835c01-7335-4c8f-973b-90d0506c336e")
+		)
+		(instances
+			(project "Precision Analog Isolation Amplifier"
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "#PWR37")
 					(unit 1)
 				)
 			)
@@ -8144,6 +9959,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 193.04 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0ac315d-d87c-491f-923c-348bc3387466")
+		(property "Reference" "#PWR36"
+			(at 193.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VEE2 -15V"
+			(at 198.374 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "033d105b-d6ad-454c-825f-501185b63be2")
+		)
+		(instances
+			(project "Precision Analog Isolation Amplifier"
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "#PWR36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 176.53 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a70cc6c7-03c5-46b2-8e46-236d440ad6b6")
+		(property "Reference" "D7"
+			(at 179.07 82.2324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 179.07 84.7724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 176.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 176.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "780ac0da-f96e-4b1d-b77f-d8fe8c3424f8")
+		)
+		(pin "2"
+			(uuid "5477ed4f-5abc-4852-b3f7-650a795608ea")
+		)
+		(instances
+			(project "Precision Analog Isolation Amplifier"
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 148.59 0)
 		(unit 1)
@@ -8346,6 +10297,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 146.05 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb56b53-5b89-42ea-945a-fa5e53726e58")
+		(property "Reference" "#PWR34"
+			(at 146.05 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fb76141-605f-4c9a-980f-48b12f3bd00c")
+		)
+		(instances
+			(project ""
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "#PWR34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 33.02 182.88 180)
 		(unit 1)
@@ -8542,34 +10559,166 @@
 			)
 		)
 		(pin "3"
-			(uuid "099cc129-879b-42bd-8408-a1763ebf4a4b")
+			(uuid "099cc129-879b-42bd-8408-a1763ebf4a4d")
 		)
 		(pin "7"
-			(uuid "3d2ed709-c9cf-4771-8703-cfde84e4f81c")
+			(uuid "3d2ed709-c9cf-4771-8703-cfde84e4f81e")
 		)
 		(pin "5"
-			(uuid "dccdce48-d40a-4ea0-aee7-4a3954bcbda8")
+			(uuid "dccdce48-d40a-4ea0-aee7-4a3954bcbdaa")
 		)
 		(pin "8"
-			(uuid "5fcefa07-4b95-481a-b70f-257314fe63de")
+			(uuid "5fcefa07-4b95-481a-b70f-257314fe63e0")
 		)
 		(pin "4"
-			(uuid "a2cb6b61-59d6-4ed2-a47d-db7271a72d17")
+			(uuid "a2cb6b61-59d6-4ed2-a47d-db7271a72d19")
 		)
 		(pin "2"
-			(uuid "01729192-fdc2-4507-a679-c58e885e8a9e")
+			(uuid "01729192-fdc2-4507-a679-c58e885e8aa0")
 		)
 		(pin "6"
-			(uuid "214e6682-8a36-4158-b118-ab6e06e698d4")
+			(uuid "214e6682-8a36-4158-b118-ab6e06e698d6")
 		)
 		(pin "1"
-			(uuid "2e4601c5-8ef0-4332-bb13-2093dca47bcb")
+			(uuid "2e4601c5-8ef0-4332-bb13-2093dca47bcd")
 		)
 		(instances
 			(project ""
 				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
 					(reference "U4")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1221341-19f6-43c4-95d1-68caca2029c0")
+		(property "Reference" "#PWR42"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 203.2 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a07887c-0bb3-45fa-873d-9e9a63421830")
+		)
+		(instances
+			(project "Precision Analog Isolation Amplifier"
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "#PWR42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b585bd50-ac90-4011-9b9f-51cdbd5415df")
+		(property "Reference" "#PWR40"
+			(at 176.53 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c64dd8d-1454-4917-990d-68300cf21908")
+		)
+		(instances
+			(project "Precision Analog Isolation Amplifier"
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "#PWR40")
+					(unit 1)
 				)
 			)
 		)
@@ -9131,6 +11280,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 138.43 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd43ff54-841c-483f-a243-70aa25a38f48")
+		(property "Reference" "F2"
+			(at 138.43 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 138.43 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 138.43 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b03585f9-0b70-43ff-b4f1-8c4cbe49846d")
+		)
+		(pin "2"
+			(uuid "d648b2ff-9173-4c83-b0be-e2c7e6b58c20")
+		)
+		(instances
+			(project ""
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 111.76 130.81 180)
 		(unit 1)
@@ -9419,6 +11636,76 @@
 			(project ""
 				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d167aa03-a6db-4486-b6f8-d99f78b58a91")
+		(property "Reference" "R9"
+			(at 179.07 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k"
+			(at 179.07 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 174.752 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 176.53 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "718bf24e-92b5-45dd-8c58-4e6306bb84a2")
+		)
+		(pin "2"
+			(uuid "783a0c1b-9017-4639-b8e2-b926d08d317d")
+		)
+		(instances
+			(project "Precision Analog Isolation Amplifier"
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9773,6 +12060,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 138.43 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f01a94c9-2ac2-4422-aab7-9ad447fb78c4")
+		(property "Reference" "F4"
+			(at 138.43 181.356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 138.43 183.896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 138.43 180.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 138.43 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1cf7ce62-21a6-4ca3-aba1-8505793310bc")
+		)
+		(pin "1"
+			(uuid "44953512-96ad-460b-b195-f245992b5603")
+		)
+		(instances
+			(project ""
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 33.02 143.51 180)
 		(unit 1)
@@ -9912,7 +12266,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 139.7 181.61 180)
+		(at 134.62 182.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9920,7 +12274,7 @@
 		(dnp no)
 		(uuid "f53968e4-7b7e-4350-84de-34ee21ad90a5")
 		(property "Reference" "#PWR15"
-			(at 139.7 177.8 0)
+			(at 134.62 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9929,7 +12283,7 @@
 			)
 		)
 		(property "Value" "VEE2 IN -15V"
-			(at 134.366 185.674 0)
+			(at 128.27 186.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9938,7 +12292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 181.61 0)
+			(at 134.62 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9947,7 +12301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 181.61 0)
+			(at 134.62 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9956,7 +12310,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 139.7 181.61 0)
+			(at 134.62 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,6 +12325,72 @@
 			(project "Precision Analog Isolation Amplifier"
 				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
 					(reference "#PWR15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 205.74 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f76da7a7-5c69-400a-829d-9a9372b58e36")
+		(property "Reference" "#PWR35"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC2 +15V"
+			(at 200.152 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f980c322-ec1f-4b60-9a88-0ca2bc220f7b")
+		)
+		(instances
+			(project "Precision Analog Isolation Amplifier"
+				(path "/bdd78c31-c7b6-4e58-85de-87ce85247572"
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)

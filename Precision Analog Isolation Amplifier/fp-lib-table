@@ -4,4 +4,5 @@
   (lib (name "ADA4522")(type "KiCad")(uri "${KIPRJMOD}/components/ADA4522")(options "")(descr ""))
   (lib (name "HCNR201-300E")(type "KiCad")(uri "${KIPRJMOD}/components/HCNR201-300E")(options "")(descr ""))
   (lib (name "NaMi_logo")(type "KiCad")(uri "${KIPRJMOD}/imgs/NaMi_logo")(options "")(descr ""))
+  (lib (name "CONN SMA JACK STR 50 OHM SMD")(type "KiCad")(uri "${KIPRJMOD}/components/CONN SMA JACK STR 50 OHM SMD")(options "")(descr ""))
 )

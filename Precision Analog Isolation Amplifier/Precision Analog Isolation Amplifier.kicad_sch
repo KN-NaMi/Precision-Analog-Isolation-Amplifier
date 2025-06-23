@@ -7306,7 +7306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "CONN SMA JACK STR 50 OHM SMD:CONN_732511350_MOL"
 			(at 38.1 66.04 0)
 			(effects
 				(font
@@ -9763,7 +9763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "CONN SMA JACK STR 50 OHM SMD:CONN_732511350_MOL"
 			(at 262.89 43.18 0)
 			(effects
 				(font

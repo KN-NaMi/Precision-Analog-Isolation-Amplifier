@@ -2280,7 +2280,7 @@
 		(at 170.1251 107.9)
 		(tags "732511350 ")
 		(property "Reference" "J4"
-			(at 0 0 0)
+			(at -4.3251 -3 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "14542627-5608-4ef9-a73d-541bf2223347")
@@ -4005,7 +4005,7 @@
 		(at 115.1625 108.1 180)
 		(tags "732511350 ")
 		(property "Reference" "J3"
-			(at 0 0 180)
+			(at -4.3375 2.8 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "13be1fc6-c16a-4dcc-8fc3-b7d32ba9d7a8")
@@ -5089,7 +5089,7 @@
 		(descr "8-Lead Standard Small Outline Package with Exposed Pad [SOIC_N_EP] (RD-8-1) -")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
-			(at 0 0 0)
+			(at -2.224 3.76 0)
 			(layer "F.SilkS")
 			(uuid "bf7da9f7-9444-485c-ab14-f35e5724b07b")
 			(effects
@@ -5438,7 +5438,7 @@
 			)
 		)
 		(property "Value" "174k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ae7ab744-a0b0-42f6-8891-ed050197131b")
@@ -5594,7 +5594,7 @@
 			(uuid "65eac774-eb4e-45a6-ba40-36dbf186118c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e8e5f2d4-8b58-4468-8471-0d1b98997b25")
 			(effects
@@ -7891,7 +7891,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at 0 -1.6 0)
+			(at 0.8 -1.6 0)
 			(layer "F.SilkS")
 			(uuid "2987fa94-44a7-4fa1-8274-e106f54bffda")
 			(effects
@@ -8330,7 +8330,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "744fa827-a679-44f5-8aa2-fbe938ead94a")
@@ -8486,7 +8486,7 @@
 			(uuid "a0ac7994-038b-4951-9dfb-710a9488e0ed")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bc8d6316-94fb-4776-a79a-3ecbd7eb7f5a")
 			(effects

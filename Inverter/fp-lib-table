@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CONN SMA JACK STR 50 OHM SMD")(type "KiCad")(uri "${KIPRJMOD}/component_lib/CONN SMA JACK STR 50 OHM SMD.pretty")(options "")(descr ""))
+  (lib (name "ADA4522-1ARZ")(type "KiCad")(uri "${KIPRJMOD}/component_lib/ADA4522/ADA4522-1ARZ.pretty")(options "")(descr ""))
+)

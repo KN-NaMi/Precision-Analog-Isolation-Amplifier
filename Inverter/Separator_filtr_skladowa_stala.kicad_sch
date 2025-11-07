@@ -1848,28 +1848,28 @@
 		(uuid "59f42417-7e8c-44ff-bf8a-788fb988f272")
 	)
 	(junction
+		(at 228.6 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a033b8e-2f03-421b-a9ee-5ce773c71465")
+	)
+	(junction
 		(at 146.05 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c2d6b36-34a1-40a1-9e63-92f3cb81f52b")
 	)
 	(junction
-		(at 76.2 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e88941e-0072-4590-9a05-4717394e5fe4")
-	)
-	(junction
-		(at 228.6 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66ae1026-155c-4bf0-9b6f-73bc11075387")
-	)
-	(junction
 		(at 260.35 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7226185c-e5c7-422b-a2fc-6caed5e5f512")
+	)
+	(junction
+		(at 76.2 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c9eb085-957b-48ac-8f23-336635d56c4a")
 	)
 	(junction
 		(at 248.92 50.8)
@@ -1962,16 +1962,6 @@
 			(type default)
 		)
 		(uuid "029dbd0e-a104-45a9-8c2f-f3c3cb730ebb")
-	)
-	(wire
-		(pts
-			(xy 81.28 106.68) (xy 76.2 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06a04b81-aaed-4b17-b812-525bafefd2fb")
 	)
 	(wire
 		(pts
@@ -2072,6 +2062,16 @@
 			(type default)
 		)
 		(uuid "1c2a7bc8-1951-4535-8ddb-4d3d04665153")
+	)
+	(wire
+		(pts
+			(xy 76.2 115.57) (xy 76.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1838d9-f852-4871-8fe2-ba65d081ff7b")
 	)
 	(wire
 		(pts
@@ -2217,6 +2217,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 119.38) (xy 81.28 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "334d7f6f-e642-41c0-b063-924d159d6818")
+	)
+	(wire
+		(pts
 			(xy 123.19 137.16) (xy 123.19 135.89)
 		)
 		(stroke
@@ -2254,6 +2264,16 @@
 			(type default)
 		)
 		(uuid "3974e342-3d15-4bd7-bbab-40759eef6fe5")
+	)
+	(wire
+		(pts
+			(xy 241.3 132.08) (xy 241.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab70e29-3aa4-476b-9084-b9b49a2a57f4")
 	)
 	(wire
 		(pts
@@ -2641,6 +2661,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 107.95) (xy 76.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940b2c5f-f9ea-45bf-9e12-be7b02a41262")
+	)
+	(wire
+		(pts
 			(xy 82.55 48.26) (xy 82.55 52.07)
 		)
 		(stroke
@@ -2701,6 +2731,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 106.68) (xy 81.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac983c58-e11b-4395-af29-c7a3ee818f5e")
+	)
+	(wire
+		(pts
 			(xy 59.69 119.38) (xy 63.5 119.38)
 		)
 		(stroke
@@ -2718,16 +2758,6 @@
 			(type default)
 		)
 		(uuid "b22a90f9-860c-4aab-ac3b-21d0ab1a15ba")
-	)
-	(wire
-		(pts
-			(xy 233.68 132.08) (xy 233.68 133.985)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53a6bac-0f08-4568-a76f-7824dcf50a4d")
 	)
 	(wire
 		(pts
@@ -2964,26 +2994,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 119.38) (xy 81.28 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef849450-5bf1-4596-85e0-e144ef76d6e1")
-	)
-	(wire
-		(pts
-			(xy 76.2 106.68) (xy 76.2 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1d5d0a2-26c5-45f3-bb10-60b53f41f335")
-	)
-	(wire
-		(pts
 			(xy 165.1 40.64) (xy 186.69 40.64)
 		)
 		(stroke
@@ -3167,7 +3177,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 133.985 0)
+		(at 241.3 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3176,7 +3186,7 @@
 		(fields_autoplaced yes)
 		(uuid "0373a6f4-474b-47c4-8efc-22d880171977")
 		(property "Reference" "#PWR014"
-			(at 233.68 140.335 0)
+			(at 241.3 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3195,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 139.065 0)
+			(at 241.3 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +3203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 133.985 0)
+			(at 241.3 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +3212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 133.985 0)
+			(at 241.3 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +3221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 133.985 0)
+			(at 241.3 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,34 +4584,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 233.68 127 0)
+		(lib_id "Device:R")
+		(at 232.41 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "53179727-daa6-4996-8d0a-974ab8027b3d")
-		(property "Reference" "J3"
-			(at 237.49 126.0231 0)
+		(fields_autoplaced yes)
+		(uuid "522b7bbc-befb-4120-927b-7e4e16380a22")
+		(property "Reference" "R18"
+			(at 232.41 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_Coaxial"
-			(at 237.49 128.5631 0)
+		(property "Value" "300R"
+			(at 232.41 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "CONN SMA JACK STR 50 OHM SMD:CONN_732511350_MOL"
-			(at 233.68 127 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 232.41 128.778 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +4619,76 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 127 0)
+			(at 232.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bda3787a-487c-41c6-a0ee-6f6095983374")
+		)
+		(pin "2"
+			(uuid "b47b883a-bfe3-4343-8d0c-2b7ec3554406")
+		)
+		(instances
+			(project ""
+				(path "/483bf3cf-81ef-401a-a7d9-4215728deaac"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 241.3 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53179727-daa6-4996-8d0a-974ab8027b3d")
+		(property "Reference" "J3"
+			(at 245.11 126.0231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 245.11 128.5631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONN SMA JACK STR 50 OHM SMD:CONN_732511350_MOL"
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +4697,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 233.68 127 0)
+			(at 241.3 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,6 +6010,75 @@
 			(project "Separator_filtr_skladowa_stala"
 				(path "/483bf3cf-81ef-401a-a7d9-4215728deaac"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a10eb511-e84d-47fb-b584-9e686b7d60bd")
+		(property "Reference" "R1"
+			(at 77.724 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 77.47 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 74.422 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "677cd509-1aa6-4744-aeae-f1702421a623")
+		)
+		(pin "1"
+			(uuid "4593d4ce-16ef-441b-be12-f3a6e9f0d0e7")
+		)
+		(instances
+			(project ""
+				(path "/483bf3cf-81ef-401a-a7d9-4215728deaac"
+					(reference "R1")
 					(unit 1)
 				)
 			)
